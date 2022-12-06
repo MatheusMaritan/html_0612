@@ -1,0 +1,169 @@
+#black{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+#blue{
+    background-color: red;
+    color: black;
+    text-align: center;
+    width: 50%;
+}
+
+#yellow{
+    background-color: green;
+    color: black;
+    text-align: center;
+    width: 50%;
+}
+
+#red{
+    background-color: orangered;
+    color: black;
+    text-align: center;
+    width: 50%;
+}
+
+#borda-one{
+    border: solid 4px black;
+    width: 50%;
+    text-align: center;
+}
+
+#borda-two{
+    border: dotted 4px red;
+    width: 50%;
+    text-align: center;
+}
+
+#borda-three{
+    border: dashed 4px blue;
+    width: 50%;
+    text-align: center;
+}
+
+#borda-four{
+    border: double 4px purple;
+    width: 50%;
+    text-align: center;
+}
+
+#disp{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#bUm{
+    background-color: gray;
+    color: white;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 50px;
+    border-radius: 10px 60px 10px 60px;
+}
+
+#bDois{
+    background-color: gray;
+    color: white;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 50px;
+    border-radius: 10px 30px 90px 30px;
+
+}
+
+#bTres{
+    background-color: gray;
+    color: white;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 50px;
+    border-radius: 10px 20px 60px 120px;
+
+}
+
+#bQuatro{
+    background-color: gray;
+    color: white;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 50px;
+    border-radius: 40px;
+
+}
+
+#tabela{
+    width: 200px;
+    margin-left: 30px;
+}
+
+table, thead, tbody, tr, td{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+table thead{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: dimgray;
+    text-align: center;
+}
+
+.nota-azul{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.nota-vermelha{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+form input{
+    background-color: rgb(170, 170, 170);
+    width: 300px;
+    height: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+button{
+    background-color: gray;
+    border: solid 1px black;
+    width: 100px;
+    height: 30px;
+    margin-left: 125px;
+}
+
+button:hover{
+    background-color: chartreuse;
+    border: solid 2px green;
+    font-weight: bolder;
+    scale: 1.2;
+    transition: 500ms;
+}
